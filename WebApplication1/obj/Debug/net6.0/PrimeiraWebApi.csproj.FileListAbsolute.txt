@@ -1,0 +1,7 @@
+C:\Users\washi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\PrimeiraWebApi.csproj.AssemblyReference.cache
+C:\Users\washi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\PrimeiraWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\washi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\PrimeiraWebApi.AssemblyInfoInputs.cache
+C:\Users\washi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\PrimeiraWebApi.AssemblyInfo.cs
+C:\Users\washi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\PrimeiraWebApi.csproj.CoreCompileInputs.cache
+C:\Users\washi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\PrimeiraWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\washi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\PrimeiraWebApi.MvcApplicationPartsAssemblyInfo.cache

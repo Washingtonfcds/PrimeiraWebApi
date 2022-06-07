@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Data;
+using PrimeiraWebApi.aplication.DTO;
+using PrimeiraWebApi.Infra.Data;
 using WebApplication1.Entidades;
 
 namespace WebApplication1.Controllers
@@ -19,29 +20,43 @@ namespace WebApplication1.Controllers
         public IActionResult GetAll()
         {
             var produtos = _context.Produtos.ToList();
+            var produtosDTO = produtos.Select(c => new ProdutoDTO
+            {
+                Id = c.Id,
+                Marca = c.Marca,
+                Nome = c.Nome
+            });
             return Ok(produtos);
         }
 
         [HttpPost]
-        public IActionResult Insert(Produto produto)
+        public IActionResult Insert(ProdutoDTO produtoDTO)
         {
+
+            var produto = new Produto { 
+            
+                Marca = produtoDTO.Marca,
+                Nome = produtoDTO.Nome
+            };
+
+
             _context.Produtos.Add(produto);
             _context.SaveChanges();
             return Ok(produto);
         }
         [HttpPut]
-        public IActionResult Update(Produto produto)
+        public IActionResult Update(ProdutoDTO produtoDTO)
         {
-            var produtoAlterado = _context.Produtos.FirstOrDefault(x => x.Id == produto.Id);
+            var produtoAlterado = _context.Produtos.FirstOrDefault(x => x.Id == produtoDTO.Id);
             if (produtoAlterado== null)
             return NotFound();
 
-            produtoAlterado.Nome = produto.Nome;
-            produtoAlterado.Marca = produto.Marca;
+            produtoAlterado.Nome = produtoDTO.Nome;
+            produtoAlterado.Marca = produtoDTO.Marca;
 
             _context.Produtos.Update(produtoAlterado);
             _context.SaveChanges();
-            return Ok(produto);
+            return Ok(produtoDTO);
             
         }
         [HttpDelete]
@@ -63,6 +78,14 @@ namespace WebApplication1.Controllers
             var produto = _context.Produtos.Find(id);
             if (produto == null)
                 return NotFound();
+
+            var produtoDTO = new ProdutoDTO {
+                
+            Id = produto.Id,
+            Nome = produto.Nome,
+            Marca = produto.Marca
+            };
+
 
             return Ok(produto);   
 

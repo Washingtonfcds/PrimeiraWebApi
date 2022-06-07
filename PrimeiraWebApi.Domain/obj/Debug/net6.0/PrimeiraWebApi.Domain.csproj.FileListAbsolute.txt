@@ -1,0 +1,12 @@
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\bin\Debug\net6.0\PrimeiraWebApi.Domain.deps.json
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\bin\Debug\net6.0\PrimeiraWebApi.Domain.dll
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\bin\Debug\net6.0\PrimeiraWebApi.Domain.pdb
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\PrimeiraWebApi.Domain.csproj.AssemblyReference.cache
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\PrimeiraWebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\PrimeiraWebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\PrimeiraWebApi.Domain.AssemblyInfo.cs
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\PrimeiraWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\PrimeiraWebApi.Domain.dll
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\refint\PrimeiraWebApi.Domain.dll
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\PrimeiraWebApi.Domain.pdb
+C:\Users\washi\source\repos\WebApplication1\PrimeiraWebApi.Domain\obj\Debug\net6.0\ref\PrimeiraWebApi.Domain.dll
